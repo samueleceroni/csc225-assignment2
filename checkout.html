@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>OrtoBello</title>
+  </head>
+  <body>
+    <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topbar" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><b>O</b>rto<b>B</b>ello</a>
+        <div class="collapse navbar-collapse" id="topbar">
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link m-0 h6" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-0 h6" href="catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-0 h6" href="cart.html">Cart</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="container mx-auto">
+        <h1 class="text-center mt-4 mb-5"><b class="text-primary">C</b>heckout</h1>
+        <form method="GET" class="row">
+          <div class="col-12 col-md-6 my-auto text-center">
+            <h3><b class="text-primary">P</b>ersonal <b class="text-primary">d</b>etails</h3>
+            <fieldset>
+              <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="first-name">First Name</label>
+                </div>
+                <input type="text" class="form-control" id="first-name" name="first-name" required>
+              </div>
+              <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="last-name">Last Name</label>
+                </div>
+                <input type="text" class="form-control" id="last-name" name="last-name" required>
+              </div>
+              <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="ssn">SSN</label>
+                </div>
+                <input type="number" class="form-control" id="ssn" name="ssn" required>
+              </div>              
+            </fieldset>
+          </div>
+          <div class="col-12 col-md-6 my-auto text-center">
+            <h3><b class="text-primary">A</b>ddress</h3>
+            <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="ave">Ave</label>
+              </div>
+              <input type="text" class="form-control" id="ave" name="ave" required>
+            </div>
+            <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="number">Number</label>
+              </div>
+              <input type="number" class="form-control" id="number" name="number" required>
+            </div>
+            <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="city-code">City Code</label>
+              </div>
+              <input type="number" class="form-control" id="city-code" name="city-code" required>
+            </div>
+            <div class="input-group mb-3 w-75 mx-auto input-group-sm">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="state">State</label>
+              </div>
+              <select class="custom-select" id="state" name="state" required>
+                <option value="" selected>Choose...</option>
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <option value="Arizona">Arizona</option>
+                <option value="Arkansas">Arkansas</option>
+                <option value="California">California</option>
+                <option value="Colorado">Colorado</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="Delaware">Delaware</option>
+                <option value="Florida">Florida</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Idaho">Idaho</option>
+                <option value="IllinoisIndiana">IllinoisIndiana</option>
+                <option value="Iowa">Iowa</option>
+                <option value="Kansas">Kansas</option>
+                <option value="Kentucky">Kentucky</option>
+                <option value="Louisiana">Louisiana</option>
+                <option value="Maine">Maine</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="Michigan">Michigan</option>
+                <option value="Minnesota">Minnesota</option>
+                <option value="Mississippi">Mississippi</option>
+                <option value="Missouri">Missouri</option>
+                <option value="MontanaNebraska">MontanaNebraska</option>
+                <option value="Nevada">Nevada</option>
+                <option value="New Hampshire">New Hampshire</option>
+                <option value="New Jersey">New Jersey</option>
+                <option value="New Mexico">New Mexico</option>
+                <option value="New York">New York</option>
+                <option value="North Carolina">North Carolina</option>
+                <option value="North Dakota">North Dakota</option>
+                <option value="Ohio">Ohio</option>
+                <option value="Oklahoma">Oklahoma</option>
+                <option value="Oregon">Oregon</option>
+                <option value="PennsylvaniaRhode Island">PennsylvaniaRhode Island</option>
+                <option value="South Carolina">South Carolina</option>
+                <option value="South Dakota">South Dakota</option>
+                <option value="Tennessee">Tennessee</option>
+                <option value="Texas">Texas</option>
+                <option value="Utah">Utah</option>
+                <option value="Vermont">Vermont</option>
+                <option value="Virginia">Virginia</option>
+                <option value="Washington">Washington</option>
+                <option value="West Virginia">West Virginia</option>
+                <option value="Wisconsin">Wisconsin</option>
+                <option value="Wyoming">Wyoming</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 my-auto">
+            <h3 class="text-center"><b class="text-primary">P</b>ayPal <b class="text-primary">A</b>ccount</h3>
+            <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="email">E-mail</label>
+              </div>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="input-group input-group-sm mb-3 w-75 mx-auto">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="password">Password</label>
+              </div>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 my-auto">
+            <h3 class="text-center"><b class="text-primary">A</b>rticles</h3>
+
+              <div class="row w-75 mx-auto text-center bg-secondary text-light rounded-top p-2">
+                <p class="col-6 m-0">Seeds</p>
+                <p class="col-6 m-0">Qty: 50.</p>
+              </div>
+              <div class="row w-75 mx-auto text-center bg-light text-dark p-2">
+                <p class="col-6 m-0">Wheat</p>
+                <p class="col-6 m-0">Qty: 3.</p>
+              </div>
+              <div class="row w-75 mx-auto text-center bg-secondary text-light rounded-bottom p-2">
+                <p class="col-6 m-0">Greenhouse</p>
+                <p class="col-6 m-0">Qty: 1.</p>
+              </div>
+          </div>
+          <div class="col-12 mt-4 mb-3 text-center">
+            <p>Total is: 127<b class="text-primary">$</b>.</p>
+            <button type="submit" class="btn btn-primary px-5">Buy now!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="footer bg-dark text-light text-center py-3">
+      Copyright 2020
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
